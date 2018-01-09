@@ -51,7 +51,7 @@ fi
 ln -s $siteAvailable$serverName $siteEnable$serverName
 
 ## Reload Nginx
-#service nginx reload
+service nginx reload
 
 echo -e $"Complete ! Yout now have a new Virtual Host\nYour new host is: http://$serverName"
 exit;
